@@ -20,12 +20,12 @@ vector<int> gcdlcm(int a, int b)
 	{
 		int temp = b;
 		b = a%b;
-		a = temp;
-	}
+		a = temp; 
+	} //유클리드 호제법을 이용한 gcd구하기
 	gcd = a;
 	answer.push_back(gcd);
 
-	int lcm = origin_a*origin_b / gcd;
+	int lcm = origin_a*origin_b / gcd;  // 두 수의 곱/gcd= lcm
 	answer.push_back(lcm);
 
 	return answer;
