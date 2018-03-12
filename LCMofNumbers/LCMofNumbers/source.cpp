@@ -20,6 +20,11 @@ long long getGCD(long long a, long long b) // get GCD. Euclidean Algorithm
 		b = temp%b;
 	}
 
+	while (cin >> a&&a)
+	{
+		cout << "??";
+	}
+
 	return a;
 
 }
