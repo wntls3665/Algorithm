@@ -21,6 +21,7 @@ string getDayName(int a, int b)
 
 	return answer;
 }
+
 int main()
 {
 	int a = 5, b = 24;
